@@ -1,0 +1,11 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+        - user: 
+                name: 'admin'
+                state: absent
+
+        - group:
+                name: 'admin'
+                state: absent

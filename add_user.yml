@@ -1,0 +1,7 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+        - user:
+                name: 'neymar'
+                expires: 17040667199
